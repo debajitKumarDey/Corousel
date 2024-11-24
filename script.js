@@ -10,4 +10,4 @@ const slideImage =()=>{
         slider.style.transform = `translateX(-${count*100}%)` 
     })
 };
-setInterval(slideImage,1500)
+setInterval(slideImage,1000)
